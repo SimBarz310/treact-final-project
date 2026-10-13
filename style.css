@@ -131,9 +131,15 @@ nav {
 }
 
 .nav__link--primary::after {
-    content:
-)
+    content:"";
+    width: 0;
+    height: 0;
+}
 
+.nav__link--primary:hover {
+    background-color: #5011cc;
+    color: white;
+}
 
 .btn__menu {
     display: none;
