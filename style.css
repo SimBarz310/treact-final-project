@@ -222,6 +222,15 @@ header .row {
     justify-content: space-between;
 }
 
+.header__img--wrapper {
+    width: calc(100%- 40%);
+}
+
+.header__img {
+    width: 100%;
+    max-width: 760px;
+}
+
 
 /* 
 
