@@ -276,6 +276,16 @@ header .row {
     transition: border-color 300ms ease;
 }
 
+.header__email--input:hover {
+    border-color:#a0aec0
+}
+
+.header__email--input:focus,
+.header__email--input:active {
+    outline: none;
+    border-color:#6415ff
+}
+
 .header__email--btn {
     z-index: 2;
     margin: 8px;
