@@ -312,6 +312,12 @@ header .row {
     letter-spacing: 0.6;
 }
 
+.header__customers {
+   margin-top: 16px;
+   padding-right: 120px;
+   opacity: 0.5; 
+}
+
 .header__img--wrapper {
     width: calc(100%- 40%);
 }
