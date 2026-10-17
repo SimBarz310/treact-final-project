@@ -437,6 +437,15 @@ QUALITY WORK ↓
     align-items: center;
 }
 
+.quality__description {
+    max-width: 576px;
+    margin-right: 64px;
+}
+
+.btn {
+    
+}
+
 
 /* 
 
