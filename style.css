@@ -443,7 +443,15 @@ QUALITY WORK ↓
 }
 
 .btn {
-    
+    background-color: #6415ff;
+    color: #fff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+
 }
 
 
