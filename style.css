@@ -440,6 +440,32 @@ QUALITY WORK ↓
 .quality__description {
     max-width: 576px;
     margin-right: 64px;
+    width: 50%;
+}
+
+.quality__img--wrapper {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.quality__img {
+    width: 100%;
+    border: 1px soid #e5e7eb;
+}
+
+.quality__grid {
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    botton: 0px;
+    fill: rgb(100, 21, 255);
+    --tw-text-opacity: 1;
+    color: rgba(100, 21, 255, var(--tw-text-opacity));
+    z-index: -1;
+    display: block;
 }
 
 .btn {
