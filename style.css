@@ -527,12 +527,15 @@ STEPS ↓
 .step {
     display: flex;
     align-items: flex-start;
+    gap: 16px;
     margin-top: 32px;
 }
 
-.steps__description {
-    padding: 32px;
-    padding-left: 64px;
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
 }
 
 .step__number {
