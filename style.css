@@ -578,7 +578,7 @@ VALUES ↓
 }
 
 .values__description {
-    width: 32px 64px 32px 0;
+    padding: 32px 64px 32px 0;
 }
 
 .values__list {
@@ -611,11 +611,20 @@ VALUES ↓
     height: 36px;
 }
 
+.value::nth-child(1) .value__img--wrapper {
+    background-color: #9ae6b4;
+}
+
+.value::nth-child(2) .value__img--wrapper {
+    background-color: #feb2b2;
+}
+
 .value__img {
     width: 50%;
     max-width: 100%;
     height: auto;
 }
+
 
 .value__name {
     margin-left: 12px;
