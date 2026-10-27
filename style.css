@@ -612,8 +612,9 @@ VALUES ↓
 }
 
 .value__img {
-    width: 20px;
-    height: 20px;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 .value__name {
