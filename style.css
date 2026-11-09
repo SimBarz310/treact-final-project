@@ -1209,9 +1209,18 @@ MOBILE RESPONSIVENESS ↓
     header .row {
         align-items: flex-end;
     }
+
+    .header__img--wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 @media (max-width: 1024px) {
+
+    .nav__links {
+        display: none;
+    }
 
     .plans {
         flex-direction: column;
@@ -1227,6 +1236,16 @@ MOBILE RESPONSIVENESS ↓
     header .row {
         flex-direction: column;
         align-items: center;
+    }
+
+    .header__customer--title, .header__img--wrapper {
+        margin-top: 48px;
+    }
+
+    .header__description, .header__img--wrapper {
+        width: 100%;
+        max-width: 512px;
+        margin: auto;   
     }
     footer {
         padding: 80px 32px;
