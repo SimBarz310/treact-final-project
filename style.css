@@ -860,6 +860,8 @@ TESTIMONIALS ↓
 
 #testimonials .row {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .testimonials__img, .testimonials__description {
@@ -881,7 +883,7 @@ img {
     margin-top: 40px;
 }
 
-.testimonial__rating {
+.testimonial__rating .fa-star {
     color: #f6ad55;
     margin-right: 2px;
     margin-top: 4px;
@@ -1359,6 +1361,25 @@ MOBILE RESPONSIVENESS ↓
     }
     #pricing .row {
         margin-top: 40px;
+    }
+
+    .testimonial {
+        text-align: center;
+    }
+
+    #testimonials .row {
+        flex-direction: column;
+    }
+
+    .testimonial__description {
+        padding: o;
+        margin-top: 64px;
+        text-align: center;
+    }
+
+    .testimonial__rating {
+        display: flex;
+        justify-content: center;
     }
 }
 
