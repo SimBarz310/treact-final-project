@@ -1416,4 +1416,24 @@ MOBILE RESPONSIVENESS ↓
         align-items: center;
         text-align: center;
     }
+
+    .testimonial__bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .testimonial__profile {
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .testimonial__buttons {
+        justify-content: center;
+    }
+
+    .testimonial__details {
+        text-align: left;
+    }
+
 }
