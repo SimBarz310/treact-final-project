@@ -631,7 +631,7 @@ VALUES ↓
 .value__img {
     width: 20px;
     height: 20px;
-
+}
 
 .value__name {
     margin-left: 12px;
@@ -1278,6 +1278,10 @@ MOBILE RESPONSIVENESS ↓
         font-size: 36px;
     }
 
+    .values__list {
+        flex-direction: column;
+    }
+
     footer {
         padding: 80px 32px;
     }
@@ -1323,6 +1327,31 @@ MOBILE RESPONSIVENESS ↓
 
     .step__description {
         margin-top: 12px;
+    }
+
+    .values__description, .values__img {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .values__description {
+        padding: 0;
+        margin-top: 64px;
+        text-align: center;
+    }
+
+    .values__list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .value {
+        margin-right: 0;
+        align-items: center;
+    }
+
+    #values .btn {
+        margin-top: 48px;
     }
 
     #quality .row, #values .row {
