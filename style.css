@@ -1157,7 +1157,7 @@ footer {
     align-items: center;
 }
 
-.foooter__logo--img {
+.footer__logo--img {
     height: 32px;
     width: 32px;
 }
@@ -1191,6 +1191,11 @@ footer {
     z-index: 2;
     cursor: pointer;
     transition: all 300ms ease;
+}
+
+.footer__social--link svg {
+    width: 16px;
+    height: 16px;
 }
 
 /* 
